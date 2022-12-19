@@ -39,20 +39,25 @@
   "displayDevice": {
     "enableDisplay": false
   },
-  "fingerprint": "wN6M1Zih7kk=",
+  "fingerprint": "aE1tBLJYKNI=",
   "id": "3741712723320047275",
   "keyRevocationActionType": "STOP",
   "kind": "compute#instance",
   "labelFingerprint": "42WmSpB8rSM=",
-  "lastStartTimestamp": "2022-12-19T11:15:22.650-08:00",
+  "lastStartTimestamp": "2022-12-19T13:25:39.077-08:00",
+  "lastStopTimestamp": "2022-12-19T13:12:11.361-08:00",
   "machineType": "projects/optimum-airfoil-370211/zones/europe-west1-b/machineTypes/e2-medium",
   "metadata": {
-    "fingerprint": "LvxrYFJGT2w=",
+    "fingerprint": "jyPH92l-4Yc=",
     "kind": "compute#metadata",
     "items": [
       {
         "value": "apt update\ncurl --output spark.tgz https://dlcdn.apache.org/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz\napt -y install default-jdk\ntar -xvzf spark.tgz\n./spark-3.3.1-bin-hadoop3/sbin/start-slave.sh spark://spark-master.europe-west1-b.c.optimum-airfoil-370211.internal:7077",
         "key": "startup-script"
+      },
+      {
+        "value": "sdevilly25:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFzJ8+ipTE/C8xm3rkvW7tg7eMMG44OwOcGMsNQurds+Md/90QO3MI8XkBIBHPamHLOsFv7kMl1xHJ18uRXXCLA= google-ssh {\"userName\":\"sdevilly25@gmail.com\",\"expireOn\":\"2022-12-19T21:37:31+0000\"}",
+        "key": "ssh-keys"
       }
     ]
   },
