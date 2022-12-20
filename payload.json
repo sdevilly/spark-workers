@@ -70,9 +70,6 @@
       "accessConfigs": [
         {
           "name": "External NAT",
-          "type": "ONE_TO_ONE_NAT",
-          "natIP": "35.205.119.89",
-          "kind": "compute#accessConfig",
           "networkTier": "PREMIUM"
         }
       ],
